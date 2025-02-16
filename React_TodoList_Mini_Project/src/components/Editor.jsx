@@ -25,6 +25,7 @@ const Editor = ({ onCreate }) => {
     }
   }
 
+
   return (
     <div className="Editor">
       <input 
