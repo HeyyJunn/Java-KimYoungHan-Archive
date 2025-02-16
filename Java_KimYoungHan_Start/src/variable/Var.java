@@ -21,12 +21,6 @@ public class Var {
             `USER_LIMIT`
             패키지는 모두 소문자를 사용한다. (패키지는 뒤에서 학습)
             `org.spring.boot`
-
-
-
-
-
-        */
-
+       */
     }
 }

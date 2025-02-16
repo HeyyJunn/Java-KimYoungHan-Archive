@@ -2,6 +2,8 @@ package cond;
 
 public class Switch {
     public static void main(String[] args) {
+        // Nothing much was learned.
+
         int grade = 2;
 
         int coupon = switch (grade) {

@@ -2,6 +2,9 @@ package operator;
 
 public class Operator {
     public static void main(String[] args) {
+
+        // Nothing much was learned.
+
         /*
             산술연산자
             증감연산자

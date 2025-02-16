@@ -12,6 +12,6 @@ public class Scanner1 {
         int intValue = scanner.nextInt();
         System.out.println("입력한 정수: " + intValue);
 
-        // if (str.equals("exit")) {
+        // if (str.equals("exit"))
     }
 }
