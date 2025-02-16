@@ -22,13 +22,11 @@ function reducer(state, action) {
 
     case "CREATE": 
       return [...state, action.data];
-
     case "UPDATE":
       return state.map((entryTodo) => entryTodo.id === action.targetId
           ? { ...entryTodo, isDone: !entryTodo.isDone}
           : entryTodo
       );
-
     case "DELETE":
       return state.filter((entryTodo) => entryTodo.id !== action.targetId);
 

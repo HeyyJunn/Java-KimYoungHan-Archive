@@ -27,7 +27,7 @@ const List = ({todo, onUpdate, onDelete}) => {
   const {totalCount, doneCount, notDoneCount} = useMemo(()=>{
     console.log("getAnalyzedData 호출!");
     const totalCount = todo.length;
-    const doneCount = todo.filter((entryTodo) => entryTodo.isDone).length;
+    // const doneCount = todo.filter((entryTodo) => entryTodo.isDone).length; 렌더링 될때마다 한번씩 순회
     const notDoneCount = totalCount - doneCount;
 
     return {
