@@ -1,0 +1,45 @@
+.LogoutButton {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+
+  margin: 50px;
+  gap: 15px;
+}
+.LogoutButton :focus {
+  outline: none;
+}
+.Logout {
+  cursor: pointer;
+  color: white;
+  
+  width: 220px;
+  height: 55px;
+  border-radius: 12px;
+
+  border: none;
+  background-color: 
+  rgba(58, 44, 255, 1);
+  font-size: 18px;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.Logout :focus {
+  border: none;
+}
+
+.DeleteId { 
+
+  cursor: pointer;
+  border: none;
+
+  color: rgba(129, 129, 129, 1);
+  background-color: transparent;
+
+  border-bottom: 1px solid rgba(129, 129, 129, 1);
+}
+.DeleteId :focus {
+  outline: none;
+}

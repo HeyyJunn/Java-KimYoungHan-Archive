@@ -1,0 +1,74 @@
+.ProfileHeader {
+  display: flex;
+
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+
+  min-width: 435px;
+  min-height: 305px;
+
+  border: 1px solid rgba(255, 255, 255, 1);
+  border-radius: 8px;
+  box-shadow: 0px 0.5px 3px 0px rgba(0, 0, 0, 0.2);
+
+}
+
+.ProfileHeader > h2 {
+  margin: 1%;
+}
+.ProfileHeader > h4 {
+  margin: 1%;
+  color: rgba(129, 129, 129, 1);
+}
+
+.maplogo-png {
+  width: 101px;
+  height: 41px;
+  margin-bottom: 5px;
+}
+.profilelogo-png {
+  width: 157px;
+  height: 157px;
+}
+
+
+.ProfileHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 433px;
+  height: 306px;
+  border-radius: 8px;
+}
+
+/* 프로필 이미지 컨테이너 */
+.ProfileContainer {
+  position: relative;
+  display: inline-block;
+}
+
+/* 프로필 이미지 */
+.ProfileImage {
+  width: 157px;
+  height: 157px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* 수정 버튼 */
+.EditIcon {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+/* 파일 업로드 input 숨김 */
+.EditIcon input {
+  display: none;
+}
