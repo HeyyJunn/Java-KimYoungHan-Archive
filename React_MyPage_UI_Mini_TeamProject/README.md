@@ -1,4 +1,4 @@
-## 🌐 React MyPage UI Mini Team Project
+# 🌐 React MyPage UI Mini Team Project
 
 2025년 2월부터 컴퓨터공학과 스터디 웹사이트 제작 팀 프로젝트의 일환으로 MyPage 부분을 담당했습니다.
 
