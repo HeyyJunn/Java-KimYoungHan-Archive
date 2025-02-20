@@ -1,8 +1,24 @@
-# React + Vite
+## 🌐 React MyPage UI Mini Team Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+2025년 2월부터 컴퓨터공학과 스터디 웹사이트 제작 팀 프로젝트의 일환으로 MyPage 부분을 담당했습니다. 
+React를 활용하여 사용자의 마이 페이지 UI를 구현했습니다.
 
-Currently, two official plugins are available:
+## 🔍 프로젝트 개요
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+기초 웹 프로그래밍 수업 전에 시작된 프로젝트로, 깃허브를 사용하여 브랜치 관리와 협업을 진행하였습니다.
+
+## 📋 주요 기능
+	•	프로필 정보 표시 및 수정
+	•	로그아웃 기능
+	•	비밀번호 변경 모달
+
+ ## 📝 사용법
+	•	프로필 정보는 페이지에 접속하면 바로 조회할 수 있습니다.
+	•	정보 수정 버튼을 통해 개인정보를 갱신할 수 있습니다.
+	•	로그아웃 버튼으로 사용자 세션을 종료할 수 있습니다.
+
+## 🛠 기술 스택
+	•	React.js
+	•	CSS
+	•	Git
+	•	GitHub
