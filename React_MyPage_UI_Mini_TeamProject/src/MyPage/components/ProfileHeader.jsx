@@ -4,7 +4,7 @@ import defaultProfileImage from '../image/project_basicprofile.png';
 import editIcon from '../image/project_profileedit.png';
 
 const ProfileHeader = ({ userInfo }) => {
-  const [profileImage, setProfileImage] = useState(defaultProfileImage); // 기본 이미지 적용
+  const [profileImage, setProfileImage] = useState(defaultProfileImage); // 기본이미지 적용
 
   const handleImageChange = (event) => {
     const file = event.target.files[0];
