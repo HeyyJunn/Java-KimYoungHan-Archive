@@ -47,19 +47,48 @@ const PasswordChangeModal = ({ onClose, userInfo, setUserInfo }) => {
     <div className="modal-overlay" onClick={onClose}>
       <div className="modal-content" onClick={(e) => e.stopPropagation()}>
         <h3>비밀번호 변경</h3>
-        <input type="password" name="currentPassword" placeholder="기존 비밀번호" onChange={handleInputChange} />
-        <input type="password" name="newPassword" placeholder="새 비밀번호" onChange={handleInputChange} />
-        <input type="password" name="confirmPassword" placeholder="새 비밀번호 확인" onChange={handleInputChange} />
-        <button className="change-btn" onClick={handleChangePassword}>변경하기</button>
+        <input 
+          type="password" 
+          name="currentPassword" 
+          placeholder="기존 비밀번호" 
+          onChange={handleInputChange} 
+        />
+        <input 
+          type="password" 
+          name="newPassword" 
+          placeholder="새 비밀번호" 
+          onChange={handleInputChange} 
+        />
+        <input 
+          type="password" 
+          name="confirmPassword" 
+          placeholder="새 비밀번호 확인" 
+          onChange={handleInputChange} 
+        />
+        <button 
+          className="change-btn" 
+          onClick={handleChangePassword}
+        > 변경하기
+        </button>
       </div>
     </div>
   );
 };
 
-const ProfileWrapper = ({ icon, label, content, showButton, setIsModalOpen }) => {
+const ProfileWrapper = ({ 
+    icon, 
+    label, 
+    content, 
+    showButton, 
+    setIsModalOpen 
+  }) => {
   return (
     <div className='ProfileWrapper'>
-      <img src={icon} alt={`${label} icon`} className='ProfileIcon' />
+      <img 
+        className='ProfileIcon' 
+        src={icon} 
+        alt={`${label} icon`} 
+      />
       <div className="ProfileText">{content}</div>
       {showButton && <button className='ChangePasswordButton' onClick={() => setIsModalOpen(true)}>변경</button>}
     </div>
@@ -76,9 +105,16 @@ const ProfileDetails = ({ userInfo, setUserInfo }) => {
       </div>
 
       {/* 아이디 & 학번: `userInfo`에서 직접 가져오기 */}
-      <ProfileWrapper icon={iconId} label="Id" content={userInfo.id} />
-      <ProfileWrapper icon={iconStudentNum} label="Student Number" content={userInfo.studentId} />
-
+      <ProfileWrapper 
+        icon={iconId} 
+        label="Id" 
+        content={userInfo.id} 
+      />
+      <ProfileWrapper 
+        icon={iconStudentNum} 
+        label="Student Number" 
+        content={userInfo.studentId} 
+      />
       {/* 비밀번호: 변경 가능하도록 버튼 추가 */}
       <ProfileWrapper
         icon={iconPassword}

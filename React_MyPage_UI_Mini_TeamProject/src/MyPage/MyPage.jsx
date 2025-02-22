@@ -9,7 +9,11 @@ function MyPage ({ userInfo, setUserInfo }) {
   return (
     <div className='MyPage'>
       <div className='LogoWrapper'>
-      <img src={projectMapLogo} alt="MAP Logo" className="maplogo-png" />
+      <img 
+        src={projectMapLogo} 
+        alt="MAP Logo" 
+        className="maplogo-png" 
+      />
       </div>
 
       <ProfileHeader 

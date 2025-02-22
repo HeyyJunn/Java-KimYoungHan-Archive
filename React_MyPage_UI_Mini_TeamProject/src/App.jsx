@@ -14,7 +14,10 @@ function App() {
 
   return (
     <div>
-        <MyPage userInfo={userInfo} setUserInfo={setUserInfo} />
+        <MyPage 
+          userInfo={userInfo} 
+          setUserInfo={setUserInfo} 
+        />
     </div>
   );
 }

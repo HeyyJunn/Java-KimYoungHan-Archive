@@ -17,12 +17,23 @@ const ProfileHeader = ({ userInfo }) => {
   return (
     <div className='ProfileHeader'>
       <div className='ProfileContainer'>
-        <img src={profileImage} alt="PROFILE" className='ProfileImage' />
+        <img 
+          src={profileImage} 
+          alt="PROFILE" 
+          className='ProfileImage' 
+        />
 
         {/* 수정 버튼 */}
         <label className='EditIcon'>
-          <img src={editIcon} alt="EDIT" />
-          <input type="file" accept="image/*" onChange={handleImageChange} />
+          <img 
+            src={editIcon} 
+            alt="EDIT" 
+          />
+          <input 
+            type="file" 
+            accept="image/*" 
+            onChange={handleImageChange} 
+          />
         </label>
       </div>
 
