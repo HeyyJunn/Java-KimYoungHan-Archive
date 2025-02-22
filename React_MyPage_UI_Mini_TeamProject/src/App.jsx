@@ -4,7 +4,6 @@ import { useState } from "react";
 
 function App() {
   // 사용자 정보 상태 관리
-
   const [userInfo, setUserInfo] = useState({
     id: "TempId1234",
     name: "임시이름",
