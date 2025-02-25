@@ -7,8 +7,6 @@ public class MethodChange2 {
         System.out.println("메서드 호출 전:  a=" + dataA.value);
         changeReference(dataA);
         System.out.println("메서드 호출 후:  a=" + dataA.value);
-
-
     }
     static void changeReference(Data dataX ) {
         dataX.value = 20;
