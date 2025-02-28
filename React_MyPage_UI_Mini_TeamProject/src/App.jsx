@@ -5,10 +5,10 @@ import { useState } from "react";
 function App() {
   // 사용자 정보 상태 관리
   const [userInfo, setUserInfo] = useState({
-    id: "TempId1234",
-    name: "임시이름",
+    id: "Temp Id",
+    name: "Kim Temp",
     studentId: "60240000",
-    password: "TempPassword1234",
+    password: "TempPassWord1234",
     entryYear: "24",
   });
 
