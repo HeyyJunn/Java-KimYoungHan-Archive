@@ -40,7 +40,7 @@ const PasswordChangeModal = ({ onClose, userInfo, setUserInfo }) => {
 
     setUserInfo({ ...userInfo, password: passwordInputs.newPassword });
     alert("비밀번호 변경 성공!");
-    onClose(); // 모달 닫기
+    onClose(); // 모달닫기
   };
 
   return (
