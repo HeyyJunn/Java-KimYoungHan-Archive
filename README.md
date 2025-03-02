@@ -1,23 +1,27 @@
-# Archive
+# Java-KimYoungHan-Archive
 
-이 저장소는 **풀스택 언어**의 대학교 전공 수업 및 자기 주도적 학습을 통해 얻은 지식을 정리하고, 학습한 코드와 프로젝트를 보관하기 위한 공간입니다.
+이 저장소는 **김영한님의 자바 강의**(입문, 기본, 중급1편 등)을 학습하며 진행한 실습 코드 및 추가적인 연습 코드들을 보관하는 공간입니다.
 
-강의에서 배운 내용뿐만 아니라, 개인적으로 진행한 미니 프로젝트 및 다양한 실습 코드들을 체계적으로 관리하기 위해 만들어졌습니다.
+## 📚 강의별 학습 내용
 
-This repository is a space for organizing and storing lecture materials from university courses,  
-self-directed study code from online courses, and mini projects related to **full-stack development**.
+### **📌 1. 자바 입문 - 기본 문법 및 객체지향 기초**
+- 자바의 기본 문법 학습
+- 변수, 조건문, 반복문, 배열, 메서드 사용법
+- 객체지향 프로그래밍(OOP) 기초 개념
 
-It is used to systematically manage programming exercises, project records, and technical learning progress.
+### **📌 2. 자바 기본 - 클래스 및 객체지향 심화**
+- 클래스, 인터페이스, 상속, 다형성 개념 정리
+- 예외 처리 및 컬렉션 프레임워크
+- 자바 표준 라이브러리 활용법
 
-## Contents
+### **📌 3. 자바 중급1편 - 고급 기능과 API 활용**
+- 제네릭과 람다 표현식
+- 스트림 API
+- 멀티스레드 프로그래밍
+- 입출력과 NIO
+- 네트워킹과 JDBC
 
-- **전공 수업 자료:**  
-  - 컴퓨터 공학 및 IT 관련 전공 수업에서 다룬 실습 코드 및 프로젝트
-  - 수업별 학습 내용 정리 및 코드 구현
-
-- **개인 학습 자료:**  
-  - Udemy, 인프런 등 온라인 강의를 통해 습득한 내용
-  - 개인적으로 실습한 코드와 학습 요약
-
-- **미니 프로젝트:**  
-  - 특정 주제를 바탕으로 진행한 미니 프로젝트
+## 🛠 사용 기술 및 학습 자료
+- **언어**: Java
+- **IDE**: IntelliJ IDEA, VS Code
+- **버전 관리**: Git, GitHub
