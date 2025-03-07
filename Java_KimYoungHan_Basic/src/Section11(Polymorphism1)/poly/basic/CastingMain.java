@@ -8,6 +8,7 @@ public class CastingMain {
 
         Child child = (Child) poly;
         child.childMethod();
+        child.parentMethod();
 
         poly.parentMethod();
 

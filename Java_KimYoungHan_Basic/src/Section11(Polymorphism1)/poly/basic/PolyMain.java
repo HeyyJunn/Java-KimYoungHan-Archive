@@ -25,5 +25,7 @@ public class PolyMain {
         // Parent 클래스부터 시작해서 필요한 기능을 찾는다.
         // 상속 관계는 자식 방향으로 찾아 내려갈 수는 없다
 
+        // 임시적 다운캐스팅 - 해당 메서드를 호출하는 순간만 다운캐스팅
+        ((Child) poly).childMethod();
     }
 }
