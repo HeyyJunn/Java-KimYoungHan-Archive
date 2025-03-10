@@ -1,4 +1,4 @@
-package access.a;
+package a;
 
 public class AccessData {
     public int publicField;
