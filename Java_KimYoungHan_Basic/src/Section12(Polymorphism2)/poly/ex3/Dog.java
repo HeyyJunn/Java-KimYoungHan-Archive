@@ -7,4 +7,8 @@ public class Dog extends AbstractAnimal {
     public void sound() {
         System.out.println("Hello World");
     }
+    @Override
+    public void move() {
+        System.out.println("Hello World");
+    }
 }
