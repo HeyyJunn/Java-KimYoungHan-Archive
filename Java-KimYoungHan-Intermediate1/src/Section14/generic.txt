@@ -1,0 +1,14 @@
+제네릭
+    클래스 내부에서 사용할 데이터 타입을 외부에서 지정하는 기법을 의미한다.
+    나중에 인스턴스를 생성할 때 확정하는 것을 제네릭 이라고 한다.
+
+제네릭은 마치 메서드 안에서 매개변수와 비슷하게 동작을 하는데
+매개변수 란것은 어떠한 변수의 값과 관련되어 있는데
+제네릭 은 변수의 데이터 타입과 관련이 있다고 생각하면 됨
+
+class Person<T> {
+    public T info;
+}
+
+Person<String> p1 = new Person<String>();
+Person<StringBuilder> p2 new Person<StringBuilder>();
