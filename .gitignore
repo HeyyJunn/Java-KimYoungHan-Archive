@@ -1,1 +1,11 @@
 Java-KimYoungHan-Pdf/
+
+
+# Java-KimYoungHan-Intermediate2
+# array 내부 파일 무시, .gitkeep 제외
+Java-KimYoungHan-Intermediate2/src/collection/array/*
+!Java-KimYoungHan-Intermediate2/src/collection/array/.gitkeep
+
+# link 내부 파일 무시, .gitkeep 제외
+Java-KimYoungHan-Intermediate2/src/collection/link/*
+!Java-KimYoungHan-Intermediate2/src/collection/link/.gitkeep
