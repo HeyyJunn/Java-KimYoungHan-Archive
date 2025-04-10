@@ -9,3 +9,9 @@ Java-KimYoungHan-Intermediate2/src/collection/array/*
 # link 내부 파일 무시, .gitkeep 제외
 Java-KimYoungHan-Intermediate2/src/collection/link/*
 !Java-KimYoungHan-Intermediate2/src/collection/link/.gitkeep
+
+Java-KimYoungHan-Intermediate2/src/dscollection/stack/arraystack/*
+!Java-KimYoungHan-Intermediate2/src/dscollection/stack/arraystack/.gitkeep
+
+Java-KimYoungHan-Intermediate2/src/dscollection/stack/liststack/*
+!Java-KimYoungHan-Intermediate2/src/dscollection/stack/liststack/.gitkeep
