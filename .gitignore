@@ -10,8 +10,9 @@ Java-KimYoungHan-Intermediate2/src/collection/array/*
 Java-KimYoungHan-Intermediate2/src/collection/link/*
 !Java-KimYoungHan-Intermediate2/src/collection/link/.gitkeep
 
-Java-KimYoungHan-Intermediate2/src/dscollection/stack/arraystack/*
-!Java-KimYoungHan-Intermediate2/src/dscollection/stack/arraystack/.gitkeep
+# deque 내부 파일 무시, .gitkeep 제외
+Java-KimYoungHan-Intermediate2/src/collection/deque/*
+!Java-KimYoungHan-Intermediate2/src/collection/deque/.gitkeep
 
-Java-KimYoungHan-Intermediate2/src/dscollection/stack/liststack/*
-!Java-KimYoungHan-Intermediate2/src/dscollection/stack/liststack/.gitkeep
+Java-KimYoungHan-Intermediate2/src/univcollection/*
+!Java-KimYoungHan-Intermediate2/src/univcollection/.gitkeep
