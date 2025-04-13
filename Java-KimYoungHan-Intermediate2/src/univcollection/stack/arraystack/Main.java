@@ -1,4 +1,4 @@
-package dscollection.stack.arraystack;
+package univcollection.stack.arraystack;
 
 public class Main {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package dscollection.stack.arraystack;
+package univcollection.stack.liststack;
 
 public class Node<E> {
     private E item;

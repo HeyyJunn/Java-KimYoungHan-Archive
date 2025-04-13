@@ -1,4 +1,4 @@
-package dscollection.stack.liststack;
+package univcollection.stack.liststack;
 
 public class Main {
     public static void main(String[] args) {

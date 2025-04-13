@@ -1,4 +1,4 @@
-package dscollection.stack.arraystack;
+package univcollection.stack.arraystack;
 import java.util.EmptyStackException;
 
 public class ArrayStack<E> {

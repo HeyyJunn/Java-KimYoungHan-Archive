@@ -1,4 +1,4 @@
-package dscollection.stack.liststack;
+package univcollection.stack.liststack;
 
 import java.util.EmptyStackException;
 

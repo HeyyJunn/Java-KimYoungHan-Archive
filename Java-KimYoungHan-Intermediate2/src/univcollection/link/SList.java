@@ -1,5 +1,6 @@
 // 자료구조(6064) 과제 3 ( 김민준 60241996 )
-package dscollection.link;
+package univcollection.link;
+
 import java.util.NoSuchElementException;
 
 // 제네릭 타입 E가 Comparable 인터페이스를 구현한 타입이어야 한다는 뜻

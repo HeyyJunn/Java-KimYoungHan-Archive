@@ -1,4 +1,4 @@
-package collection.deque;
+package univcollection;
 import java.util.Stack;
 //Stack은 사용하면 안됨 -> Deque를 대신 사용
 public class StackMain {

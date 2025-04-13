@@ -1,4 +1,4 @@
-package dscollection.link;
+package univcollection.link;
 
 public class Main {
     public static void main(String[] args) {
