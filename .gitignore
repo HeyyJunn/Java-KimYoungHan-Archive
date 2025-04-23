@@ -14,5 +14,8 @@ Java-KimYoungHan-Intermediate2/src/collection/link/*
 Java-KimYoungHan-Intermediate2/src/collection/deque/*
 !Java-KimYoungHan-Intermediate2/src/collection/deque/.gitkeep
 
+Java-KimYoungHan-Intermediate2/src/collection/compare/*
+!Java-KimYoungHan-Intermediate2/src/collection/compare/.gitkeep
+
 Java-KimYoungHan-Intermediate2/src/univcollection/*
 !Java-KimYoungHan-Intermediate2/src/univcollection/.gitkeep
